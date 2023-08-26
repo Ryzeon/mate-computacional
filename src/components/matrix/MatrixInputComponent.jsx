@@ -1,12 +1,10 @@
 import { useEffect } from 'react';
 import './MatrixInputComponent.css'
 
-let mask = false;
 export const MatrixInputComponent = (props) => {
-    mask = props.masks
     useEffect(function persistForm() {
         if (props.masks === true) {
-            const matrix = generateMatrix(3, 3) // Generate a matrix with input cols and rows
+            const matrix = generateMatrix(3, 3, true) // Generate a matrix with input cols and rows
         
             const matrixContainer = document.querySelector('.matrix_component_matrix_mask')
 
@@ -64,7 +62,7 @@ const handleGenerateMatrix = () => {
         return
     }
 
-    const matrix = generateMatrix(cols, rows) // Generate a matrix with input cols and rows
+    const matrix = generateMatrix(cols, rows, false) // Generate a matrix with input cols and rows
 
     const matrixContainer = document.querySelector('.matrix_component_matrix')
 
@@ -74,7 +72,7 @@ const handleGenerateMatrix = () => {
     matrixContainer.appendChild(matrix)
 }
 
-const generateMatrix = (rows, cols) => {
+const generateMatrix = (rows, cols, mask) => {
     const matrix = document.createElement('div')
     matrix.className = 'matrix_component_matrix_matrix'
     if (mask) {
