@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/computacional/static/css/main.1d74c540.css",
-    "main.js": "/computacional/static/js/main.ecc88a03.js",
-    "static/js/364.5385ef8b.chunk.js": "/computacional/static/js/364.5385ef8b.chunk.js",
-    "index.html": "/computacional/index.html",
-    "main.1d74c540.css.map": "/computacional/static/css/main.1d74c540.css.map",
-    "main.ecc88a03.js.map": "/computacional/static/js/main.ecc88a03.js.map",
-    "364.5385ef8b.chunk.js.map": "/computacional/static/js/364.5385ef8b.chunk.js.map"
+    "main.css": "/mate-computacional/static/css/main.1d74c540.css",
+    "main.js": "/mate-computacional/static/js/main.0855e229.js",
+    "static/js/364.5385ef8b.chunk.js": "/mate-computacional/static/js/364.5385ef8b.chunk.js",
+    "index.html": "/mate-computacional/index.html",
+    "main.1d74c540.css.map": "/mate-computacional/static/css/main.1d74c540.css.map",
+    "main.0855e229.js.map": "/mate-computacional/static/js/main.0855e229.js.map",
+    "364.5385ef8b.chunk.js.map": "/mate-computacional/static/js/364.5385ef8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d74c540.css",
-    "static/js/main.ecc88a03.js"
+    "static/js/main.0855e229.js"
   ]
 }
