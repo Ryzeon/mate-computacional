@@ -18,7 +18,7 @@ export const ImageSpacialFilter = () => {
 
             <MatrixInputComponent generate={true}/>
             <h3 className="img_spacial_page_title">
-            Mascara aca 
+            Mascara 
             </h3>
             <MatrixInputComponent masks={true}/>
 
