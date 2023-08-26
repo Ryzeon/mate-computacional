@@ -1,0 +1,83 @@
+.matrix_input_component {
+
+}
+
+.matrix_input_component_cols_rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#matrix_input_component_cols_rows_input {
+    width: 100%;
+    margin: 0 10px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    border: 2px dashed mediumpurple;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+}
+
+.matrix_input_component_cols_rows_button{
+    width: 200px;
+    margin: 0 10px;
+    padding: 5px;
+
+    text-align: center;
+    color: #ffffff;
+
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.matrix_component_matrix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.matrix_component_matrix_matrix_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.matrix_component_matrix_matrix_row_col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 2px 2px;
+    height: 20px;
+    width: 20px;
+
+    color: white;
+    font-size: 15px;
+    border: 2px solid gray;
+
+    border-radius: 5px;
+    text-align: center;
+
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] { -moz-appearance:textfield; }
