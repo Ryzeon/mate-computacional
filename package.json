@@ -1,6 +1,6 @@
 {
   "name": "mate-computacional",
-  "homepage": "http://ryzeon.github.io/mate-computacional/",
+  "homepage": "http://ryzeon.github.io/mate-computacional",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
