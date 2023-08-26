@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import {DevSupport} from "@react-buddy/ide-toolbox";
 import {ComponentPreviews, useInitial} from "./dev";
+import {HashRouter} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,8 @@ root.render(
         >
             <App/>
         </DevSupport>
+        <HashRouter>
+            <App />
+        </HashRouter>
     </React.StrictMode>
 );
-
