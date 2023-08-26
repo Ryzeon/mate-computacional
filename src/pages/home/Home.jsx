@@ -10,17 +10,17 @@ export const Home = () => {
             <div className="home_page_links">
 
             <a className="home_page_link"
-                href={`${process.env.PUBLIC_URL}/img_process`}
+                href={`${process.env.PUBLIC_URL}/#/img_process`}
             >Procesamiento de imagenes</a>
 
             <br />
 
             <a className="home_page_link"
-                href={`${process.env.PUBLIC_URL}/img_filter`}
+                href={`${process.env.PUBLIC_URL}/#/img_filter`}
             >Filtrado de imagenes media y mediana</a>
 
                 <a className="home_page_link"
-                href={`${process.env.PUBLIC_URL}/img_spacial`}
+                href={`${process.env.PUBLIC_URL}/#/img_spacial`}
             >Filtrado de imagenes espacial</a>
 
             </div>
