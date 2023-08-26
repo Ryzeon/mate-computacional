@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mate-computacional/static/css/main.1d74c540.css",
-    "main.js": "/mate-computacional/static/js/main.e43d5ad4.js",
+    "main.js": "/mate-computacional/static/js/main.db0f3869.js",
     "index.html": "/mate-computacional/index.html",
     "main.1d74c540.css.map": "/mate-computacional/static/css/main.1d74c540.css.map",
-    "main.e43d5ad4.js.map": "/mate-computacional/static/js/main.e43d5ad4.js.map"
+    "main.db0f3869.js.map": "/mate-computacional/static/js/main.db0f3869.js.map"
   },
   "entrypoints": [
     "static/css/main.1d74c540.css",
-    "static/js/main.e43d5ad4.js"
+    "static/js/main.db0f3869.js"
   ]
 }
